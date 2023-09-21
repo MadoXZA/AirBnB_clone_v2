@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Defines the Review class. """
+"""Defines the Review class."""
 from models.base_model import Base
 from models.base_model import BaseModel
 from sqlalchemy import Column
@@ -9,7 +9,7 @@ from sqlalchemy.orm import relationship
 
 
 class Review(BaseModel, Base):
-    """ Represents a review for a MySQL database.
+    """Represents a review for a MySQL database.
 
     Inherits from SQLAlchemy Base and links to the MySQL table reviews.
 
